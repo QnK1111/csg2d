@@ -1,0 +1,48 @@
+{
+    files = {
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\circle.cpp.obj]],
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\complexshape.cpp.obj]],
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\functions.cpp.obj]],
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\main.cpp.obj]],
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\rectangle.cpp.obj]],
+        [[build\.objs\csg2d\windows\x64\release\src\csg2d\shape.cpp.obj]]
+    },
+    values = {
+        [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe]],
+        {
+            "-nologo",
+            "-dynamicbase",
+            "-nxcompat",
+            "-machine:x64",
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+            [[-libpath:C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+            "/opt:ref",
+            "/opt:icf",
+            "sfml-graphics.lib",
+            "sfml-window.lib",
+            "sfml-audio.lib",
+            "sfml-network.lib",
+            "sfml-system.lib",
+            "sfml-main.lib",
+            "freetype.lib",
+            "zlib.lib",
+            "FLAC.lib",
+            "ogg.lib",
+            "vorbisenc.lib",
+            "vorbisfile.lib",
+            "vorbis.lib",
+            "OpenAL32.lib",
+            "winmm.lib",
+            "ole32.lib",
+            "shell32.lib",
+            "user32.lib",
+            "kernel32.lib",
+            "/SUBSYSTEM:CONSOLE"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+{
+    mtimes = {
+        ["src\\csg2d\\xmake.lua"] = 1716314759,
+        ["xmake.lua"] = 1716314759,
+        ["src\\xmake.lua"] = 1716314759
+    },
+    recheck = false,
+    options = { }
+}

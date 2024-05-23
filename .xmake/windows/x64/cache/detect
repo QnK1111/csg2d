@@ -1,0 +1,624 @@
+{
+    find_program_msvc_arch_x64_plat_windows_checktoolld = {
+        ["link.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolsh = {
+        ["link.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe]]
+    },
+    ["detect.sdks.find_vcpkgdir"] = false,
+    find_program = {
+        gzip = false,
+        git = "git",
+        zig = false,
+        ["pkg-config"] = false,
+        ["msbuild.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\msbuild.exe]],
+        ["cl.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\cl.exe]],
+        unzip = false,
+        ["E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\link.exe]],
+        nim = false,
+        curl = [[C:\Program Files\xmake\winenv\bin\curl]],
+        ping = "ping",
+        pkgconf = false,
+        ["vswhere.exe"] = [[C:\Program Files (x86)\Microsoft Visual Studio\Installer\vswhere.exe]],
+        cmake = [[C:\Program Files\CMake\bin\cmake]],
+        ["7z"] = [[C:\Program Files\xmake\winenv\bin\7z]],
+        tar = "tar",
+        ["E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\cl.exe]]
+    },
+    find_package_windows_x64_fetch_package_xmake = {
+        ["xmake::zlib_7f43608e74fd49838c965b1accf5308a_release_v1.3.1_external"] = {
+            static = true,
+            links = {
+                "zlib"
+            },
+            license = "zlib",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            },
+            version = "v1.3.1"
+        },
+        ["xmake::libvorbis_e9da7a2db274470da4df35547b3d4a51_release_1.3.7_external"] = {
+            static = true,
+            links = {
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg"
+            },
+            license = "BSD-3",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            },
+            version = "1.3.7"
+        },
+        ["xmake::libogg_dcdaf449df644509bf01b69064ebff77_release_v1.3.4"] = {
+            static = true,
+            links = {
+                "ogg"
+            },
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            includedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            },
+            version = "v1.3.4"
+        },
+        ["xmake::openal-soft_a7a485379cbc48f982aa38269514fedd_release_1.23.1"] = {
+            static = true,
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            links = {
+                "OpenAL32"
+            },
+            version = "1.23.1",
+            license = "LGPL-2.0",
+            syslinks = {
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            includedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+            },
+            defines = "AL_LIBTYPE_STATIC",
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            }
+        },
+        ["xmake::sfml_13c68b5046914a83b9a10e7f3e750c46_release_2.6.0_external"] = {
+            shared = true,
+            static = true,
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+            },
+            version = "2.6.0",
+            license = "zlib",
+            links = {
+                "sfml-graphics",
+                "sfml-window",
+                "sfml-audio",
+                "sfml-network",
+                "sfml-system",
+                "sfml-main",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32",
+                "freetype",
+                "zlib",
+                "FLAC",
+                "ogg",
+                "vorbisenc",
+                "vorbisfile",
+                "vorbis",
+                "ogg",
+                "ogg",
+                "ogg",
+                "ogg",
+                "OpenAL32"
+            },
+            syslinks = {
+                "winmm",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32",
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-graphics.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-window.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-audio.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-network.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-system.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib\sfml-main.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-audio-2.dll]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-graphics-2.dll]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-network-2.dll]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-system-2.dll]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\bin\sfml-window-2.dll]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisenc.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbisfile.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib\vorbis.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            },
+            components = {
+                network = {
+                    links = "sfml-network"
+                },
+                graphics = {
+                    links = "sfml-graphics"
+                },
+                audio = {
+                    links = "sfml-audio"
+                },
+                __base = {
+                    links = {
+                        "freetype",
+                        "zlib",
+                        "FLAC",
+                        "ogg",
+                        "vorbisenc",
+                        "vorbisfile",
+                        "vorbis",
+                        "OpenAL32"
+                    },
+                    sysincludedirs = {
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\include]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\include]]
+                    },
+                    linkdirs = {
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\s\sfml\2.6.0\13c68b5046914a83b9a10e7f3e750c46\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libvorbis\1.3.7\e9da7a2db274470da4df35547b3d4a51\lib]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+                    },
+                    syslinks = {
+                        "ole32",
+                        "shell32",
+                        "user32",
+                        "winmm",
+                        "kernel32"
+                    },
+                    defines = {
+                        "FLAC__NO_DLL",
+                        "AL_LIBTYPE_STATIC"
+                    },
+                    includedirs = {
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]],
+                        [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+                    }
+                },
+                window = {
+                    links = "sfml-window"
+                },
+                main = {
+                    links = "sfml-main"
+                },
+                system = {
+                    links = "sfml-system",
+                    syslinks = "winmm"
+                }
+            }
+        },
+        ["xmake::zlib_7f43608e74fd49838c965b1accf5308a_release_v1.3.1"] = {
+            static = true,
+            links = {
+                "zlib"
+            },
+            license = "zlib",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            includedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            },
+            version = "v1.3.1"
+        },
+        ["xmake::libflac_546ae71e054144959f945fa10b315b78_release_1.4.3_external"] = {
+            links = {
+                "FLAC",
+                "ogg"
+            },
+            static = true,
+            version = "1.4.3",
+            license = "BSD",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\include]]
+            },
+            defines = "FLAC__NO_DLL",
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libflac\1.4.3\546ae71e054144959f945fa10b315b78\lib\FLAC.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            }
+        },
+        ["xmake::freetype_278f789efb684897bfd08948bd857a56_release_2.13.1"] = {
+            static = true,
+            links = {
+                "freetype"
+            },
+            license = "BSD",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]]
+            },
+            includedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]]
+            },
+            version = "2.13.1"
+        },
+        ["xmake::libogg_dcdaf449df644509bf01b69064ebff77_release_v1.3.4_external"] = {
+            static = true,
+            links = {
+                "ogg"
+            },
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\l\libogg\v1.3.4\dcdaf449df644509bf01b69064ebff77\lib\ogg.lib]]
+            },
+            version = "v1.3.4"
+        },
+        ["xmake::freetype_278f789efb684897bfd08948bd857a56_release_2.13.1_external"] = {
+            static = true,
+            links = {
+                "freetype",
+                "zlib"
+            },
+            license = "BSD",
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\include\freetype2]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\include]]
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\f\freetype\2.13.1\278f789efb684897bfd08948bd857a56\lib\freetype.lib]],
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\z\zlib\v1.3.1\7f43608e74fd49838c965b1accf5308a\lib\zlib.lib]]
+            },
+            version = "2.13.1"
+        },
+        ["xmake::openal-soft_a7a485379cbc48f982aa38269514fedd_release_1.23.1_external"] = {
+            static = true,
+            linkdirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib]]
+            },
+            sysincludedirs = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\include]]
+            },
+            version = "1.23.1",
+            license = "LGPL-2.0",
+            links = {
+                "OpenAL32"
+            },
+            defines = "AL_LIBTYPE_STATIC",
+            syslinks = {
+                "ole32",
+                "shell32",
+                "user32",
+                "winmm",
+                "kernel32"
+            },
+            libfiles = {
+                [[C:\Users\Kacper\AppData\Local\.xmake\packages\o\openal-soft\1.23.1\a7a485379cbc48f982aa38269514fedd\lib\OpenAL32.lib]]
+            }
+        }
+    },
+    find_programver_fetch_package_system = {
+        ["C:\\Program Files\\CMake\\bin\\cmake"] = "3.29.3"
+    },
+    find_program_fetch_package_xmake = {
+        cmake = false,
+        pkgconf = false
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcc = {
+        ["cl.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_msvc_arch_x64_plat_windows_checktoolcxx = {
+        ["cl.exe"] = [[E:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.35.32215\bin\HostX64\x64\cl.exe]]
+    },
+    find_program_fetch_package_system = {
+        pkgconf = false,
+        cmake = [[C:\Program Files\CMake\bin\cmake]]
+    },
+    find_programver = {
+        ["E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe"] = "14.35.32217.1",
+        ["C:\\Program Files\\xmake\\winenv\\bin\\curl"] = "8.2.1",
+        ["E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe"] = false
+    },
+    ["lib.detect.has_flags"] = {
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_cl_external_includedir"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cc_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_-MT"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_/std:c++latest"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_-DNDEBUG"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_sourceDependencies"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\link.exe_14.35.32217.1_ld_ldflags_-nologo -dynamicbase -nxcompat -machine:x64_/SUBSYSTEM:CONSOLE"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_/Wall"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx__-nologo_-O2 -fp:fast"] = true,
+        ["windows_x64_E:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.35.32215\\bin\\HostX64\\x64\\cl.exe__cxx_cxflags_-nologo_cl_external_includedir"] = true
+    },
+    find_package_windows_x64_fetch_package_system = {
+        libogg_dcdaf449df644509bf01b69064ebff77_release_external = false,
+        vorbisfile_e9da7a2db274470da4df35547b3d4a51_release_external = false,
+        freetype_278f789efb684897bfd08948bd857a56_release_external = false,
+        libflac_546ae71e054144959f945fa10b315b78_release_external = false,
+        ["openal-soft_a7a485379cbc48f982aa38269514fedd_release_external"] = false,
+        libvorbis_e9da7a2db274470da4df35547b3d4a51_release_external = false,
+        zlib_7f43608e74fd49838c965b1accf5308a_release_external = false
+    }
+}
